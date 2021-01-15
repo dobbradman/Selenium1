@@ -24,7 +24,7 @@ public class Main {
 	@Test
 	public void More_options(WebDriver ChromeDriver) {
 		Login_page lp=PageFactory.initElements(ChromeDriver, Login_page.class);
-		lp.Login("Receptionist", "Hyderabad", "5", "10000", "20000", "Per month", "Permanent");
+		lp.Login("Receptionist", "Hyderabad", "2", "10000", "20000", "Per month", "Permanent");
 
 	}
 	@AfterTest
